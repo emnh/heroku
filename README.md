@@ -7,8 +7,11 @@ Not all projects are committed to github.
 What to do about it?
 Make heroku project dir on github for extra files and shell scripts to sync/copy files from repos?
 Git submodules?
+
 Perhaps subtree merge strategy is more appropriate?
 https://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html
+
+Or maybe just backup to Google Drive or something.
 
 Notably:
 
@@ -17,7 +20,7 @@ Notably:
  - github: https://github.com/emnh/boolwidth/tree/master/explorer
  - in a github subdir of boolwidth 
  - has extra heroku files in this repo
- - TODO: fix. submodule?
+ - TODO: make separate github repository, add as submodule in boolwidth
 
 ## clue2
  - heroku: http://clue2.herokuapp.com/static/index.html (password protected due to private copy of dictionaries)
